@@ -17,6 +17,7 @@
 import spock.lang.*
 
 class DataDrivenSpec extends Specification {
+
   def "maximum of two numbers"() {
     expect:
     Math.max(a, b) == c
@@ -54,4 +55,6 @@ class DataDrivenSpec extends Specification {
       name == "Fred" ? "Male" : "Female"
     }
   }
+
+
 }
